@@ -1,0 +1,60 @@
+bin
+obj
+csx
+.vs
+edge
+Publish
+
+*.user
+*.suo
+*.cscfg
+*.Cache
+project.lock.json
+
+/packages
+/TestResults
+
+/tools/NuGet.exe
+/App_Data
+/secrets
+/data
+.secrets
+appsettings.json
+local.settings.json
+
+node_modules
+dist
+
+# Local python packages
+.python_packages/
+
+# Python Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Azurite artifacts
+__blobstorage__
+__queuestorage__
+__azurite_db*__.json
+
+### Update gitignore for Terraform
+# Terraform files
+*.tfstate                 # State files
+*.tfstate.*               # Backup state files
+.terraform/               # Terraform working directory
+*.tfvars                  # Variables files (if sensitive)
+*.tfplan                  # Plan files (if sensitive)
+
+# Local environment variables
+.auto.tfvars              # Automatically loaded variable files
+.vscode
